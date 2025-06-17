@@ -22,10 +22,10 @@ const Canada = () => {
 
   return (
     <div className="flex flex-col items-center justify-center py-12 px-6 space-y-6 bg-white shadow-xl rounded-2xl w-full max-w-md mx-auto">
-      <h1 className="text-3xl font-extrabold text-green-700 tracking-wide">
+      <h1 className="text-3xl font-extrabold text-red-700 tracking-wide">
         CANADA TIME
       </h1>
-      <div className="bg-green-50 border-2 border-green-300 rounded-xl px-8 py-6 w-full text-center shadow-inner">
+      <div className="bg-green-50 border-2 border-red-300 rounded-xl px-8 py-6 w-full text-center shadow-inner">
         <p className="text-5xl md:text-6xl font-mono font-semibold text-gray-800">
           {time}
         </p>
